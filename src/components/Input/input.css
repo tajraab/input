@@ -1,1 +1,53 @@
-.input
+/* input.css */
+
+.input-container {
+    padding-top: 100px;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.name,
+.email,
+.password {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.name input,
+.email input,
+.password input {
+    padding: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    color: black;
+    font-size: 22px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input:not(:focus) {
+    color: #7a7a7a;
+}
+
+input:focus {
+    color: black;
+}
+
+/* Add more styles as needed */
+
+/* Optional: Style for Submit Button */
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
